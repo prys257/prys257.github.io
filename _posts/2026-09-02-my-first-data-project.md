@@ -105,6 +105,10 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 
 ## The Great Toolkit Divide
 
+
+<div class="subscriber-content">
+
+  
 ### Data Analyst's Toolbox
 - **SQL:** The foundation. Can't live without it.
 - **Excel:** Has been using VLOOKUP since 2003. Won't stop.
@@ -121,6 +125,12 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 - **SQL:** "I'll get back to you on that… let me just spin up a Jupyter notebook real quick."
 - **Whiteboard:** Essential for pretending to explain algorithms at standup meetings.
 - **Strong Coffee:** Not optional.
+
+</div>
+
+<div class="subscribe-message">
+    Subscribe to continue reading
+</div>
 
 **Motto:** *"I could have shipped this model in 2 weeks, but I decided to try 47 different algorithms first."*
 
