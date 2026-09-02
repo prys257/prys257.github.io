@@ -114,19 +114,16 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 - **Python Basics:** Knows just enough to be dangerous. Dangles their data cleaning script like it's a PhD dissertation.
 - **Statistics:** Descriptive statistics, correlation, A/B testing. Formal, reliable, boring.
 
-<!-- blur-end -->
 
-**Motto:** *"I'm going to ask one more question of the data, and if that doesn't work, I'm asking three more."*
+ **Motto:** *"I'm going to ask one more question of the data, and if that doesn't work, I'm asking three more."*
 
-<!-- blur-start -->
-
-### Data Scientist's Toolbox
-- **Python/R:** The holy trinity (Python, math libraries, and Stack Overflow).
-- **Machine Learning:** scikit-learn, TensorFlow, XGBoost, PyTorch — collect them all!
-- **Advanced Statistics:** Bayesian inference, hypothesis testing at 0.05 significance level, cursing the Central Limit Theorem.
-- **SQL:** "I'll get back to you on that… let me just spin up a Jupyter notebook real quick."
-- **Whiteboard:** Essential for pretending to explain algorithms at standup meetings.
-- **Strong Coffee:** Not optional.
+ ### Data Scientist's Toolbox
+ - **Python/R:** The holy trinity (Python, math libraries, and Stack Overflow).
+ - **Machine Learning:** scikit-learn, TensorFlow, XGBoost, PyTorch — collect them all!
+ - **Advanced Statistics:** Bayesian inference, hypothesis testing at 0.05 significance level, cursing the Central Limit Theorem.
+ - **SQL:** "I'll get back to you on that… let me just spin up a Jupyter notebook real quick."
+ - **Whiteboard:** Essential for pretending to explain algorithms at standup meetings.
+ - **Strong Coffee:** Not optional.
 
 <!-- blur-end -->
 
