@@ -4,7 +4,7 @@ title:  "Data Scientist vs Data Analyst: A Tale of Two Data Nerds (And Why One N
 author: Prayas
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: assets/images/prys1.jpg
 description: "Listen, if you've ever wondered what the difference is between a data scientist and a data analyst, you're not alone. Even their parents are confused"
 featured: true
 hidden: false
