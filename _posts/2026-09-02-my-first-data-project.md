@@ -105,9 +105,7 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 
 ## The Great Toolkit Divide
 
-
 <!-- blur-start -->
-
   
 ### Data Analyst's Toolbox
 - **SQL:** The foundation. Can't live without it.
@@ -120,7 +118,7 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 
 **Motto:** *"I'm going to ask one more question of the data, and if that doesn't work, I'm asking three more."*
 
-
+<!-- blur-start -->
 
 ### Data Scientist's Toolbox
 - **Python/R:** The holy trinity (Python, math libraries, and Stack Overflow).
@@ -130,6 +128,7 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 - **Whiteboard:** Essential for pretending to explain algorithms at standup meetings.
 - **Strong Coffee:** Not optional.
 
+<!-- blur-end -->
 
 **Motto:** *"I could have shipped this model in 2 weeks, but I decided to try 47 different algorithms first."*
 
