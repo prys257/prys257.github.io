@@ -2,11 +2,12 @@
 layout: post
 title:  "Data Scientist vs Data Analyst: A Tale of Two Data Nerds (And Why One Needs a Whiteboard)"
 author: Prayas
-categories: [ Jekyll, tutorial ]
+categories: ""
 tags: [red, yellow]
 image: assets/images/prys1.jpg
 description: "Listen, if you've ever wondered what the difference is between a data scientist and a data analyst, you're not alone. Even their parents are confused"
 featured: true
+hidden: true
 hidden: false
 rating: 4.5
 ---
