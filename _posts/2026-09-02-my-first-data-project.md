@@ -181,21 +181,3 @@ Also, be nice to them. Data nerds are fragile creatures. A single "is this data 
 **P.S.** If someone tells you they're "a bit of both," they're probably 70% analyst trying to sound cooler at parties. And that's okay. We love you anyway. 💚
 
 *Now go forth and let them analyze things. And maybe get them some coffee. Strong coffee.*
-
-
-#### How to use?
-
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
-
-```html
----
-layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
-image: assets/images/11.jpg
-description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
----
-```
