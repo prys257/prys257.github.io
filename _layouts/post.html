@@ -179,3 +179,22 @@ https://search.google.com/structured-data/testing-tool/u/0/
 }
 </script>
 {% endif %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem("subscribed") === "true") {
+
+        document.querySelectorAll(".subscriber-content").forEach(function (content) {
+            content.style.filter = "none";
+            content.style.opacity = "1";
+            content.style.maxHeight = "none";
+            content.style.overflow = "visible";
+            content.style.userSelect = "auto";
+            content.style.pointerEvents = "auto";
+        });
+
+        document.querySelectorAll(".subscribe-message").forEach(function (message) {
+            message.style.display = "none";
+        });
+    }
+});
+</script>
