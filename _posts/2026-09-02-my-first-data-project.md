@@ -3,7 +3,7 @@ layout: post
 title:  "Data Scientist vs Data Analyst: A Tale of Two Data Nerds (And Why One Needs a Whiteboard)"
 author: Prayas
 categories: ""
-tags: [red, yellow]
+tags: ""
 image: assets/images/prys1.jpg
 description: "Listen, if you've ever wondered what the difference is between a data scientist and a data analyst, you're not alone. Even their parents are confused"
 featured: true
@@ -106,7 +106,7 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 ## The Great Toolkit Divide
 
 
-<div class="subscriber-content">
+<!-- blur-start -->
 
   
 ### Data Analyst's Toolbox
@@ -116,7 +116,11 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 - **Python Basics:** Knows just enough to be dangerous. Dangles their data cleaning script like it's a PhD dissertation.
 - **Statistics:** Descriptive statistics, correlation, A/B testing. Formal, reliable, boring.
 
+<!-- blur-end -->
+
 **Motto:** *"I'm going to ask one more question of the data, and if that doesn't work, I'm asking three more."*
+
+<!-- blur-start -->
 
 ### Data Scientist's Toolbox
 - **Python/R:** The holy trinity (Python, math libraries, and Stack Overflow).
@@ -126,11 +130,7 @@ A data scientist builds **predictive and prescriptive models** using advanced st
 - **Whiteboard:** Essential for pretending to explain algorithms at standup meetings.
 - **Strong Coffee:** Not optional.
 
-</div>
-
-<div class="subscribe-message">
-    Subscribe to continue reading
-</div>
+<!-- blur-end -->
 
 **Motto:** *"I could have shipped this model in 2 weeks, but I decided to try 47 different algorithms first."*
 
