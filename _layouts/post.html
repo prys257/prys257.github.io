@@ -181,20 +181,62 @@ https://search.google.com/structured-data/testing-tool/u/0/
 {% endif %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    if (localStorage.getItem("subscribed") === "true") {
 
-        document.querySelectorAll(".subscriber-content").forEach(function (content) {
-            content.style.filter = "none";
-            content.style.opacity = "1";
-            content.style.maxHeight = "none";
-            content.style.overflow = "visible";
-            content.style.userSelect = "auto";
-            content.style.pointerEvents = "auto";
-        });
+    var article = document.querySelector(".article-post");
+    if (!article) return;
 
-        document.querySelectorAll(".subscribe-message").forEach(function (message) {
-            message.style.display = "none";
-        });
+    var walker = document.createTreeWalker(
+        article,
+        NodeFilter.SHOW_COMMENT
+    );
+
+    var startMarker = null;
+    var endMarker = null;
+
+    while (walker.nextNode()) {
+        var comment = walker.currentNode;
+
+        if (comment.nodeValue.trim() === "blur-start") {
+            startMarker = comment;
+        }
+
+        if (comment.nodeValue.trim() === "blur-end") {
+            endMarker = comment;
+            break;
+        }
     }
+
+    if (!startMarker || !endMarker) return;
+
+    var isSubscribed =
+        localStorage.getItem("subscribed") === "true";
+
+    var wrapper = document.createElement("div");
+
+    if (!isSubscribed) {
+        wrapper.className = "subscriber-content";
+    }
+
+    article.insertBefore(wrapper, endMarker);
+
+    var currentNode = startMarker.nextSibling;
+
+    while (currentNode && currentNode !== endMarker) {
+        var nextNode = currentNode.nextSibling;
+        wrapper.appendChild(currentNode);
+        currentNode = nextNode;
+    }
+
+    if (!isSubscribed) {
+        var message = document.createElement("div");
+        message.className = "subscribe-message";
+        message.textContent = "Subscribe to read more";
+
+        article.insertBefore(message, endMarker);
+    }
+
+    startMarker.remove();
+    endMarker.remove();
+
 });
 </script>
