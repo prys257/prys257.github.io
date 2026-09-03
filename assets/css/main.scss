@@ -26,6 +26,10 @@
     font-weight: bold;
 }
 
+body {
+    background-color: #fffff4;
+}
+
 /* Import partials from `sass_dir` (defaults to `_sass`) */
 @import
     "syntax",
