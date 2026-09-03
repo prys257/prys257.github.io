@@ -3,7 +3,7 @@ name: "A Data GUY obs"
 title: "A DATA GUY obs"
 description: "NOT information only, Here you will read Experience."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/guy.png'
 baseurl: ""
 #google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
