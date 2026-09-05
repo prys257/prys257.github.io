@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data modeling concepts (“One company hired them to build a table. Yeah, you heard it right, one table…”)"
-author: sal
+author: Prayas
 categories: ""
 image: assets/images/database.jpg.jpg
 feature: true
