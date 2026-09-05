@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "Data modeling concepts (“One company hired them to build a table. Yeah, you heard it right, one table…”)"
 author: sal
 categories: ""
-image: 
+image: assets/images/database.jpg.jpg
 feature: true
-hidden: ""
 ---
 Data modeling concepts (“One company hired them to build a table. Yeah, you heard it right, one table…”)
 
